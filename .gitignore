@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# TensorFlow / ML model training artifacts
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+logs/
+checkpoint/
+
+# Ignore uploads (if any)
+uploads/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variable / secrets
+*.env

@@ -1,0 +1,90 @@
+/* ===== Global Styling ===== */
+body {
+    background: linear-gradient(120deg, #0d1a42, #143d59, #0f3057);
+    background-size: 300% 300%;
+    animation: gradientShift 8s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+/* ===== Card ===== */
+.card {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== Drag & Drop Upload Box ===== */
+.drop-area {
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px dashed rgba(255, 255, 255, 0.6);
+    padding: 35px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    color: #d9ecff;
+}
+
+.drop-area:hover {
+    background: rgba(255, 255, 255, 0.28);
+    transform: scale(1.03);
+}
+
+/* Drag Active State */
+.drop-area.dragging {
+    background: rgba(0, 234, 255, 0.3);
+    border-color: cyan;
+    box-shadow: 0px 0px 20px cyan;
+}
+
+/* Stylish Button */
+button {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border: none !important;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+/* Loader Text Styling */
+#loader p {
+    color: #d9ecff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Result styling */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.success {
+    color: #00ff9d;
+    text-shadow: 0px 0px 10px rgba(0, 255, 157, 0.9);
+}
+
+.danger {
+    color: #ff5370;
+    text-shadow: 0px 0px 10px rgba(255, 83, 112, 0.9);
+}
+
+a.btn {
+    background-color: #ffffff;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+a.btn:hover {
+    background-color: cyan;
+}
