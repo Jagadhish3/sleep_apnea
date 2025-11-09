@@ -1,4 +1,3 @@
-✅ README.md
 # 🫁 Sleep Apnea Detection Using CNN-BiLSTM (ECG Spectrogram Analysis)
 
 This project detects **Sleep Apnea** using ECG signals by converting them into **spectrogram images**, which are then classified using a trained **CNN + BiLSTM hybrid deep learning model**.
